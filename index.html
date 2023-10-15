@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Resume Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Resume Generator</h1>
+    </header>
+    <section id="input" class="section">
+        <h2>Enter Your Information</h2>
+        <form id="resumeForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="education">Educational Qualifications:</label>
+                <textarea id="education" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="activities">Extracurricular Activities:</label>
+                <textarea id="activities" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="courses">Courses Completed:</label>
+                <textarea id="courses"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="internships">Internships:</label>
+                <textarea id="internships"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="projects">Projects:</label>
+                <textarea id="projects"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="skills">Skills:</label>
+                <textarea id="skills"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="linkedin">LinkedIn ID:</label>
+                <input type="text" id="linkedin">
+            </div>
+            <div class="form-group">
+                <label for="languages">Languages Known:</label>
+                <textarea id="languages"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="hobbies">Hobbies:</label>
+                <textarea id="hobbies"></textarea>
+            </div>
+            <button type="submit">Generate Resume</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
